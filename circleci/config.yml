@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker: #执行容器
+      - image: circleci/node:14 #依赖环境
+    branches: #分支
+      only:
+      - main
+    # Steps are a list of commands to run inside the docker container above.
+    steps:
+      - run: 
+          name: Install
+          command: yarn install
+      - run:
+          name: Test
+          command: npm test
