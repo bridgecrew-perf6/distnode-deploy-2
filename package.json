@@ -1,0 +1,28 @@
+{
+  "name": "distnode-deploy",
+  "version": "1.0.0",
+  "description": "分布式nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoyuhang1033/distnode-deploy.git"
+  },
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "left-pad": "1.3.0",
+    "middie": "5.1",
+    "node-fetch": "^2.6.0",
+    "statsd-client": "0.4.4",
+    "zipkin-lite": "0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaoyuhang1033/distnode-deploy/issues"
+  },
+  "homepage": "https://github.com/zhaoyuhang1033/distnode-deploy#readme"
+}
